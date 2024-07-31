@@ -1,14 +1,44 @@
-<html>
-<head><title>Archivos Financieros</title></head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archivos Financieros</title>
+    <link rel="stylesheet" href="css/sb-admin-2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
 <body>
-<h1>Archivos Financieros</h1>
-<h2>Archivos Beneficiarios</h2>
-<ul>
-<li><a href="Beneficiarios/30-07-24_1.2 Analisis Semantico_072618.PDF" target="_blank">30-07-24_1.2 Analisis Semantico_072618.PDF</a></li>
-<li><a href="Beneficiarios/30-07-24_1.6 Tabla de simbolos_093918.PDF" target="_blank">30-07-24_1.6 Tabla de simbolos_093918.PDF</a></li>
-<li><a href="Beneficiarios/30-07-24_Diagrama de Clases  _Tienda Departamental_.pdf" target="_blank">30-07-24_Diagrama de Clases  _Tienda Departamental_.pdf</a></li>
-<li><a href="Beneficiarios/30-07-24_Tabarez Sanchez Isaac Abraham_2S11_Estados financieros basicos.pdf" target="_blank">30-07-24_Tabarez Sanchez Isaac Abraham_2S11_Estados financieros basicos.pdf</a></li>
-</ul>
-<h2>Archivos Impuestos</h2>
+    <!-- Begin Page Content -->
+    <div class="container-fluid">
+        <!-- DataTales Example -->
+        <div class="card shadow mb-4">
+            <div class="card-header py-3" style="background-color: #2B4150;">
+                <h6 class="m-0 font-weight-bold text-white"> <i class="fas fa-user-tie"></i> Informe Financiero</h6>
+            </div>
+            <div class="card-header d-flex align-items-center justify-content-between">
+                <h6 class="m-0 font-weight-bold">AGO EDITORIAL</h6>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col">
+                        <table class="table">
+                            <tr>
+                                <td><h2>Información Financiera Mensual</h2>{{InformacionFinancieraMensual}}</td>
+                                <td><h2>Libro Diario</h2>{{LibroDiario}}</td>
+                                <td><h2>Libro Mayor</h2>{{LibroMayor}}</td>
+                                <td><h2>Movimientos Auxiliares</h2>{{MovimientosAuxiliares}}</td>
+                            </tr>
+                            <tr>
+                                <td><h2>Información Cierre del Ejercicio</h2>{{InformacionCierreEjercicio}}</td>
+                                <td><h2>Declaraciones Mensuales</h2>{{DeclaracionesMensuales}}</td>
+                                <td><h2>Declaración Anual</h2>{{DeclaracionAnual}}</td>
+                                <td><h2>Activo Fijo</h2>{{ActivoFijo}}</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
